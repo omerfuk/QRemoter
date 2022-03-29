@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0A5F8927F3290D00354DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8827F3290D00354DCD /* AppDelegate.swift */; };
+		DE0A5F8B27F3290D00354DCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8A27F3290D00354DCD /* SceneDelegate.swift */; };
+		DE0A5F8D27F3290D00354DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8C27F3290D00354DCD /* ViewController.swift */; };
+		DE0A5F9027F3290D00354DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A5F8E27F3290D00354DCD /* Main.storyboard */; };
+		DE0A5F9227F3290F00354DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0A5F9127F3290F00354DCD /* Assets.xcassets */; };
+		DE0A5F9527F3290F00354DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A5F9327F3290F00354DCD /* LaunchScreen.storyboard */; };
+		DE0A5FA027F3290F00354DCD /* QRemoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F9F27F3290F00354DCD /* QRemoterTests.swift */; };
+		DE0A5FAA27F3290F00354DCD /* QRemoterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FA927F3290F00354DCD /* QRemoterUITests.swift */; };
+		DE0A5FAC27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FAB27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0A5F9C27F3290F00354DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0A5F7D27F3290D00354DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0A5F8427F3290D00354DCD;
+			remoteInfo = QRemoter;
+		};
+		DE0A5FA627F3290F00354DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0A5F7D27F3290D00354DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0A5F8427F3290D00354DCD;
+			remoteInfo = QRemoter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0A5F8527F3290D00354DCD /* QRemoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRemoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0A5F8827F3290D00354DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE0A5F8A27F3290D00354DCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE0A5F8C27F3290D00354DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE0A5F8F27F3290D00354DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0A5F9127F3290F00354DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0A5F9427F3290F00354DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0A5F9627F3290F00354DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0A5F9B27F3290F00354DCD /* QRemoterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRemoterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0A5F9F27F3290F00354DCD /* QRemoterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRemoterTests.swift; sourceTree = "<group>"; };
+		DE0A5FA527F3290F00354DCD /* QRemoterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRemoterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0A5FA927F3290F00354DCD /* QRemoterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRemoterUITests.swift; sourceTree = "<group>"; };
+		DE0A5FAB27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRemoterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0A5F8227F3290D00354DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0A5F9827F3290F00354DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0A5FA227F3290F00354DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0A5F7C27F3290D00354DCD = {
+			isa = PBXGroup;
+			children = (
+				DE0A5F8727F3290D00354DCD /* QRemoter */,
+				DE0A5F9E27F3290F00354DCD /* QRemoterTests */,
+				DE0A5FA827F3290F00354DCD /* QRemoterUITests */,
+				DE0A5F8627F3290D00354DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0A5F8627F3290D00354DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A5F8527F3290D00354DCD /* QRemoter.app */,
+				DE0A5F9B27F3290F00354DCD /* QRemoterTests.xctest */,
+				DE0A5FA527F3290F00354DCD /* QRemoterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0A5F8727F3290D00354DCD /* QRemoter */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A5F8827F3290D00354DCD /* AppDelegate.swift */,
+				DE0A5F8A27F3290D00354DCD /* SceneDelegate.swift */,
+				DE0A5F8C27F3290D00354DCD /* ViewController.swift */,
+				DE0A5F8E27F3290D00354DCD /* Main.storyboard */,
+				DE0A5F9127F3290F00354DCD /* Assets.xcassets */,
+				DE0A5F9327F3290F00354DCD /* LaunchScreen.storyboard */,
+				DE0A5F9627F3290F00354DCD /* Info.plist */,
+			);
+			path = QRemoter;
+			sourceTree = "<group>";
+		};
+		DE0A5F9E27F3290F00354DCD /* QRemoterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A5F9F27F3290F00354DCD /* QRemoterTests.swift */,
+			);
+			path = QRemoterTests;
+			sourceTree = "<group>";
+		};
+		DE0A5FA827F3290F00354DCD /* QRemoterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A5FA927F3290F00354DCD /* QRemoterUITests.swift */,
+				DE0A5FAB27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift */,
+			);
+			path = QRemoterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0A5F8427F3290D00354DCD /* QRemoter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0A5FAF27F3290F00354DCD /* Build configuration list for PBXNativeTarget "QRemoter" */;
+			buildPhases = (
+				DE0A5F8127F3290D00354DCD /* Sources */,
+				DE0A5F8227F3290D00354DCD /* Frameworks */,
+				DE0A5F8327F3290D00354DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRemoter;
+			productName = QRemoter;
+			productReference = DE0A5F8527F3290D00354DCD /* QRemoter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0A5F9A27F3290F00354DCD /* QRemoterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0A5FB227F3290F00354DCD /* Build configuration list for PBXNativeTarget "QRemoterTests" */;
+			buildPhases = (
+				DE0A5F9727F3290F00354DCD /* Sources */,
+				DE0A5F9827F3290F00354DCD /* Frameworks */,
+				DE0A5F9927F3290F00354DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0A5F9D27F3290F00354DCD /* PBXTargetDependency */,
+			);
+			name = QRemoterTests;
+			productName = QRemoterTests;
+			productReference = DE0A5F9B27F3290F00354DCD /* QRemoterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0A5FA427F3290F00354DCD /* QRemoterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0A5FB527F3290F00354DCD /* Build configuration list for PBXNativeTarget "QRemoterUITests" */;
+			buildPhases = (
+				DE0A5FA127F3290F00354DCD /* Sources */,
+				DE0A5FA227F3290F00354DCD /* Frameworks */,
+				DE0A5FA327F3290F00354DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0A5FA727F3290F00354DCD /* PBXTargetDependency */,
+			);
+			name = QRemoterUITests;
+			productName = QRemoterUITests;
+			productReference = DE0A5FA527F3290F00354DCD /* QRemoterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0A5F7D27F3290D00354DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DE0A5F8427F3290D00354DCD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DE0A5F9A27F3290F00354DCD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DE0A5F8427F3290D00354DCD;
+					};
+					DE0A5FA427F3290F00354DCD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DE0A5F8427F3290D00354DCD;
+					};
+				};
+			};
+			buildConfigurationList = DE0A5F8027F3290D00354DCD /* Build configuration list for PBXProject "QRemoter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0A5F7C27F3290D00354DCD;
+			productRefGroup = DE0A5F8627F3290D00354DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0A5F8427F3290D00354DCD /* QRemoter */,
+				DE0A5F9A27F3290F00354DCD /* QRemoterTests */,
+				DE0A5FA427F3290F00354DCD /* QRemoterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0A5F8327F3290D00354DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0A5F9527F3290F00354DCD /* LaunchScreen.storyboard in Resources */,
+				DE0A5F9227F3290F00354DCD /* Assets.xcassets in Resources */,
+				DE0A5F9027F3290D00354DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0A5F9927F3290F00354DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0A5FA327F3290F00354DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0A5F8127F3290D00354DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0A5F8D27F3290D00354DCD /* ViewController.swift in Sources */,
+				DE0A5F8927F3290D00354DCD /* AppDelegate.swift in Sources */,
+				DE0A5F8B27F3290D00354DCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0A5F9727F3290F00354DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0A5FA027F3290F00354DCD /* QRemoterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0A5FA127F3290F00354DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0A5FAC27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift in Sources */,
+				DE0A5FAA27F3290F00354DCD /* QRemoterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0A5F9D27F3290F00354DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0A5F8427F3290D00354DCD /* QRemoter */;
+			targetProxy = DE0A5F9C27F3290F00354DCD /* PBXContainerItemProxy */;
+		};
+		DE0A5FA727F3290F00354DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0A5F8427F3290D00354DCD /* QRemoter */;
+			targetProxy = DE0A5FA627F3290F00354DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE0A5F8E27F3290D00354DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0A5F8F27F3290D00354DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0A5F9327F3290F00354DCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0A5F9427F3290F00354DCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0A5FAD27F3290F00354DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0A5FAE27F3290F00354DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0A5FB027F3290F00354DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRemoter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.QRemoter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0A5FB127F3290F00354DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRemoter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.QRemoter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0A5FB327F3290F00354DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.QRemoterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRemoter.app/QRemoter";
+			};
+			name = Debug;
+		};
+		DE0A5FB427F3290F00354DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.QRemoterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRemoter.app/QRemoter";
+			};
+			name = Release;
+		};
+		DE0A5FB627F3290F00354DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.QRemoterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRemoter;
+			};
+			name = Debug;
+		};
+		DE0A5FB727F3290F00354DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.QRemoterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRemoter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0A5F8027F3290D00354DCD /* Build configuration list for PBXProject "QRemoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0A5FAD27F3290F00354DCD /* Debug */,
+				DE0A5FAE27F3290F00354DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0A5FAF27F3290F00354DCD /* Build configuration list for PBXNativeTarget "QRemoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0A5FB027F3290F00354DCD /* Debug */,
+				DE0A5FB127F3290F00354DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0A5FB227F3290F00354DCD /* Build configuration list for PBXNativeTarget "QRemoterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0A5FB327F3290F00354DCD /* Debug */,
+				DE0A5FB427F3290F00354DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0A5FB527F3290F00354DCD /* Build configuration list for PBXNativeTarget "QRemoterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0A5FB627F3290F00354DCD /* Debug */,
+				DE0A5FB727F3290F00354DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0A5F7D27F3290D00354DCD /* Project object */;
+}
