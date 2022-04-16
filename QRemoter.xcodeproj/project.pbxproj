@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		DE0A5F8927F3290D00354DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8827F3290D00354DCD /* AppDelegate.swift */; };
 		DE0A5F8B27F3290D00354DCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8A27F3290D00354DCD /* SceneDelegate.swift */; };
-		DE0A5F8D27F3290D00354DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8C27F3290D00354DCD /* ViewController.swift */; };
+		DE0A5F8D27F3290D00354DCD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F8C27F3290D00354DCD /* LoginViewController.swift */; };
 		DE0A5F9027F3290D00354DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A5F8E27F3290D00354DCD /* Main.storyboard */; };
 		DE0A5F9227F3290F00354DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0A5F9127F3290F00354DCD /* Assets.xcassets */; };
 		DE0A5F9527F3290F00354DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A5F9327F3290F00354DCD /* LaunchScreen.storyboard */; };
 		DE0A5FA027F3290F00354DCD /* QRemoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5F9F27F3290F00354DCD /* QRemoterTests.swift */; };
 		DE0A5FAA27F3290F00354DCD /* QRemoterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FA927F3290F00354DCD /* QRemoterUITests.swift */; };
 		DE0A5FAC27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FAB27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift */; };
+		DE0A5FBB27F3325300354DCD /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FBA27F3325300354DCD /* ChooseViewController.swift */; };
+		DE0A5FBD27F334F100354DCD /* ElevatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FBC27F334F100354DCD /* ElevatorViewController.swift */; };
+		DE0A5FBF27F3351000354DCD /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A5FBE27F3351000354DCD /* HouseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		DE0A5F8527F3290D00354DCD /* QRemoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRemoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A5F8827F3290D00354DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0A5F8A27F3290D00354DCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE0A5F8C27F3290D00354DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE0A5F8C27F3290D00354DCD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DE0A5F8F27F3290D00354DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE0A5F9127F3290F00354DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0A5F9427F3290F00354DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		DE0A5FA527F3290F00354DCD /* QRemoterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRemoterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A5FA927F3290F00354DCD /* QRemoterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRemoterUITests.swift; sourceTree = "<group>"; };
 		DE0A5FAB27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRemoterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE0A5FBA27F3325300354DCD /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		DE0A5FBC27F334F100354DCD /* ElevatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorViewController.swift; sourceTree = "<group>"; };
+		DE0A5FBE27F3351000354DCD /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,9 @@
 		DE0A5F8727F3290D00354DCD /* QRemoter */ = {
 			isa = PBXGroup;
 			children = (
+				DE0A5FC027F339BA00354DCD /* Controllers */,
 				DE0A5F8827F3290D00354DCD /* AppDelegate.swift */,
 				DE0A5F8A27F3290D00354DCD /* SceneDelegate.swift */,
-				DE0A5F8C27F3290D00354DCD /* ViewController.swift */,
 				DE0A5F8E27F3290D00354DCD /* Main.storyboard */,
 				DE0A5F9127F3290F00354DCD /* Assets.xcassets */,
 				DE0A5F9327F3290F00354DCD /* LaunchScreen.storyboard */,
@@ -125,6 +131,17 @@
 				DE0A5FAB27F3290F00354DCD /* QRemoterUITestsLaunchTests.swift */,
 			);
 			path = QRemoterUITests;
+			sourceTree = "<group>";
+		};
+		DE0A5FC027F339BA00354DCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A5F8C27F3290D00354DCD /* LoginViewController.swift */,
+				DE0A5FBA27F3325300354DCD /* ChooseViewController.swift */,
+				DE0A5FBC27F334F100354DCD /* ElevatorViewController.swift */,
+				DE0A5FBE27F3351000354DCD /* HouseViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0A5F8D27F3290D00354DCD /* ViewController.swift in Sources */,
+				DE0A5F8D27F3290D00354DCD /* LoginViewController.swift in Sources */,
+				DE0A5FBF27F3351000354DCD /* HouseViewController.swift in Sources */,
+				DE0A5FBD27F334F100354DCD /* ElevatorViewController.swift in Sources */,
+				DE0A5FBB27F3325300354DCD /* ChooseViewController.swift in Sources */,
 				DE0A5F8927F3290D00354DCD /* AppDelegate.swift in Sources */,
 				DE0A5F8B27F3290D00354DCD /* SceneDelegate.swift in Sources */,
 			);
